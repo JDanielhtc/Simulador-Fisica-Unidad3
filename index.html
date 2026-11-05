@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulador de Física 2 — Electricidad y Magnetismo</title>
+<meta name="description" content="Simulador interactivo de electrostática, capacitores, circuitos y campo magnético.">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="marca"><span class="logo" aria-hidden="true">⚡</span><div><h1>Simulador de Física 2</h1><p>Electricidad y magnetismo</p></div></div>
+  <nav id="unidades" class="unidades" aria-label="Unidades del curso"></nav>
+</header>
+<nav id="modulos" class="modulos" aria-label="Módulos de la unidad"></nav>
+<main id="contenido" class="contenido">
+  <div class="intro" id="intro"></div>
+  <div id="vista"></div>
+</main>
+<div id="toast" class="toast" role="alert"></div>
+<noscript><p style="padding:2rem">Este simulador necesita JavaScript habilitado.</p></noscript>
+
+<script src="js/physics/core.js"></script>
+<script src="js/physics/capacitors.js"></script>
+<script src="js/physics/circuits.js"></script>
+<script src="js/ui/ui.js"></script>
+<script src="js/ui/camara3d.js"></script>
+<script src="js/ui/grafica.js"></script>
+<script src="js/ui/mod_circuitos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
