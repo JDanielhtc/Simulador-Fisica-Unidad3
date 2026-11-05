@@ -1,0 +1,4 @@
+Unidad 3: Ley de Ohm y Simulador de circuitos
+
+Para ejecutar: abra index.html en un navegador (Chrome, Edge o Firefox). No requiere internet ni instalación.
+Esta carpeta contiene solo lo necesario para esta unidad. El proyecto completo está en Proyecto_Completo.
